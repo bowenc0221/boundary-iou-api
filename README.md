@@ -1,4 +1,9 @@
 # Boundary IoU API (Beta version)
+
+Bowen Cheng, Ross Girshick, Piotr Dollár, Alexander C. Berg, Alexander Kirillov
+
+[[`arXiv`](https://arxiv.org/abs/2103.16562)] [[`Project`](https://bowenc0221.github.io/boundary-iou/)] [[`BibTeX`](#CitingBoundaryIoU)]
+
 This API is an experimental version of Boundary IoU for 5 datasets:
 - [COCO instance segmentation](https://cocodataset.org/#detection-eval)
 - [LVIS instance segmentation](https://www.lvisdataset.org/)
@@ -151,7 +156,7 @@ We also provide evaluation code that can evaluates your prediction files for eac
         --iou-type boundary
     ```
 
-## Citing Boundary IoU
+## <a name="CitingBoundaryIoU"></a>Citing Boundary IoU
 If you find Boundary IoU helpful in your research or wish to refer to the referenced results, please use the following BibTeX entry.
 
 ```BibTeX
