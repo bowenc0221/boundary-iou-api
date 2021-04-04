@@ -13,7 +13,6 @@ setup(
     install_requires=[
         "setuptools",
         "cython",
-        "opencv-python>=4.3.0",
         "numpy",
         "tabulate",
         "fvcore>=0.1.1",
