@@ -22,6 +22,8 @@ cd boundary_iou_api
 pip install -e .
 ```
 
+OpenCV is required to use Boundary IoU API.
+
 ## Summary of usage
 We provide two ways to use this api, you can either replace imports with our api or do offline evaluation.
 
