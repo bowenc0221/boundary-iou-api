@@ -322,13 +322,13 @@ class COCO:
             for ann in anns:
                 print(ann['caption'])
 
-    def loadRes(self, resFile):
+    def loadRes(self, resFile, get_boundary=False):
         """
         Load result file and return a result api object.
         :param   resFile (str)     : file name of result file
         :return: res (obj)         : result api object
         """
-        res = COCO(get_boundary=self.get_boundary, dilation_ratio=self.dilation_ratio)
+        res = COCO(get_boundary=get_boundary, dilation_ratio=self.dilation_ratio)
         res.dataset['images'] = [img for img in self.dataset['images']]
 
         print('Loading and preparing results...')
